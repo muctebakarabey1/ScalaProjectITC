@@ -2,7 +2,7 @@ package spark
 
 import org.apache.spark.{SparkConf, SparkContext}
 
-object TestJar {
+object spark {
   def main(args: Array[String]): Unit = {
     val conf = new SparkConf().setAppName("someName").setAppName("WordCount")
     //create spark context object
